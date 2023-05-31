@@ -12,15 +12,7 @@ module.exports = {
     remotePatterns: [
       {
         protocol: 'https',
-        hostname: 'vercel.saleor.cloud'
-      },
-      {
-        protocol: 'https',
-        hostname: 'demo.saleor.io'
-      },
-      {
-        protocol: 'https',
-        hostname: 'prod.demo.saleor.cloud'
+        hostname: 'data.eminstore.com'
       }
     ]
   }

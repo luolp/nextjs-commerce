@@ -9,12 +9,13 @@ module.exports = {
   },
   images: {
     // formats: ['image/avif', 'image/webp'],
+    domains: [
+        'data.eminstore.com'
+    ],
     remotePatterns: [
       {
         protocol: 'https',
-        hostname: 'data.eminstore.com',
-        port: '',
-        pathname: '**'
+        hostname: 'data.eminstore.com'
       }
     ]
   }

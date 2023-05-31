@@ -11,12 +11,6 @@ module.exports = {
     // formats: ['image/avif', 'image/webp'],
     domains: [
         'data.eminstore.com'
-    ],
-    remotePatterns: [
-      {
-        protocol: 'https',
-        hostname: 'data.eminstore.com'
-      }
     ]
   }
 };

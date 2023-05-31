@@ -12,7 +12,9 @@ module.exports = {
     remotePatterns: [
       {
         protocol: 'https',
-        hostname: 'data.eminstore.com'
+        hostname: 'data.eminstore.com',
+        port: '',
+        pathname: '**'
       }
     ]
   }

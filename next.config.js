@@ -8,9 +8,12 @@ module.exports = {
     appDir: true
   },
   images: {
-    // formats: ['image/avif', 'image/webp'],
-    domains: [
-        'data.eminstore.com'
+    formats: ['image/avif', 'image/webp'],
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'data.eminstore.com'
+      }
     ]
   }
 };

@@ -35,7 +35,7 @@ export async function saleorFetch<Result, Variables>({
   query,
   variables,
   headers,
-  cache = 'no-store'
+  cache = 'force-cache'
 }: {
   query: TypedDocumentString<Result, Variables>;
   variables: Variables;

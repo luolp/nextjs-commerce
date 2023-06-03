@@ -20,7 +20,7 @@ export default async function Navbar() {
       <div className="flex justify-self-center md:w-1/3 md:justify-self-start">
         <div className="md:mr-4">
           <Link href="/" aria-label="Go back home">
-            <LogoIcon className="h-8 transition-transform hover:scale-110" />
+            <LogoIcon className="h-12 transition-transform hover:scale-110" />
           </Link>
         </div>
         {menu.length ? (
